@@ -96,5 +96,6 @@
                 </div>
             </div>
         </div>
+        <script src="{{asset("js/frontend.js")}}"></script>
     </body>
 </html>
