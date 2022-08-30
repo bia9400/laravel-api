@@ -3,6 +3,8 @@
     <div v-for="name in posts" :key="name.id">
       <h1>{{ name.name }}</h1>
       <p>{{ name.content }}</p>
+      
+      <img :src="name.cover_img" alt="" width="250px">
     </div>
   </div>
 </template>

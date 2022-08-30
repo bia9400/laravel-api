@@ -1952,7 +1952,13 @@ var render = function render() {
   return _c("div", _vm._l(_vm.posts, function (name) {
     return _c("div", {
       key: name.id
-    }, [_c("h1", [_vm._v(_vm._s(name.name))]), _vm._v(" "), _c("p", [_vm._v(_vm._s(name.content))])]);
+    }, [_c("h1", [_vm._v(_vm._s(name.name))]), _vm._v(" "), _c("p", [_vm._v(_vm._s(name.content))]), _vm._v(" "), _c("img", {
+      attrs: {
+        src: name.cover_img,
+        alt: "",
+        width: "250px"
+      }
+    })]);
   }), 0);
 };
 
